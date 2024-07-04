@@ -2,9 +2,9 @@
 #Task
 #Given an integer, X , perform the following conditional actions:
 #If X is odd, print Weird
-#If X is even and in the inclusive range of  to , print Not Weird
-#If X is even and in the inclusive range of  to , print Weird
-#If X is even and greater than , print Not Weird
+#If X is even and in the inclusive range of 2 to 5, print Not Weird
+#If X is even and in the inclusive range of 6 to 20, print Weird
+#If X is even and greater than 20, print Not Weird
 #Input Format
 #A single line containing a positive integer, .
 #Constraints
