@@ -15,7 +15,6 @@ def _buildMethod(num):
 print(_buildMethod(n))
 
 
-
 def _toThePowerOfTwoMethod(n):
     counter = 0
     while counter <= n:
