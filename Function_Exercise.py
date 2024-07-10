@@ -30,6 +30,8 @@ def CheckIfEven(number):
         print("The Number you Entered is even number")
     else:
         print("The Number you Entered is an odd number")
+        
+    print("The number you entered is an even number") if number % 2 == 0 else print("The number you enterd is an odd number")
 
 userNumber = int(input("Enter a Number: "))
 CheckIfEven(userNumber)
