@@ -22,7 +22,7 @@ def _ArrayMethod(arrLen):
     for x in arr:
         minSum += x
     minSum -= arr[arrLen-1]
-    print(arr)
+    #print(arr)
     return f"The max sum of the the numbers is {maxSum}\nThe min sum of the numbers is {minSum}"
 
 print(_ArrayMethod(arrSize))
