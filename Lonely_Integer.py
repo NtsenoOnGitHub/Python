@@ -1,6 +1,6 @@
 #https://www.hackerrank.com/challenges/one-month-preparation-kit-lonely-integer/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one
 
-arr = [1,2,3,5,3,2,1]
+arr = [1,5, 4, 2,3,5,3,2,1]
 
 def _lonelyInteger(arr):
     lonelyInteger = 0
