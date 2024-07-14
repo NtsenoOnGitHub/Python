@@ -16,11 +16,13 @@ def _sockMerchant(lenofArr, Arr):
     numToreturn = 0
     for x in Arr:
         ocurrance = 0
+        count = 0
         for y in Arr:
             if x == y:
                 ocurrance += 1
         if ocurrance >= 2:
             numToreturn += int(ocurrance / 2)
+    
     return numToreturn
 
 print(f"\nThere are {_sockMerchant(userInput, _arrayIntializer(userInput))} pairs of socks in the pile\n")
