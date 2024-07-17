@@ -16,4 +16,6 @@ def _merge(arr1, m, arr2, n):
 
 _merge(nums1, 6, nums2, 3)
 
+sortedArray.sort(reverse=False)
+
 print(sortedArray)
