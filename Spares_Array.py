@@ -6,18 +6,14 @@ nums2 = [2,5,6]
 sortedArray = []
 
 def _merge(arr1, m, arr2, n):
-    small1, small2 = 0, 0
-    for y in arr1:
-        for x in arr2:
-            if x < y:
-                sortedArray.append(x)
-            elif x == y:
-                sortedArray.append(x)
-                sortedArray.append(y)
-            else:
-                sortedArray.append(y)
+    
+    for x in arr1:
+        if x != 0:
+            sortedArray.append(x)
+    for x in arr2:
+        if x != 0:
+            sortedArray.append(x)
 
-
-_merge(nums1, len(nums1), nums2, len(nums2))
+_merge(nums1, 6, nums2, 3)
 
 print(sortedArray)
