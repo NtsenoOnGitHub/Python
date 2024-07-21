@@ -6,6 +6,11 @@ arrSize = int(input("Enter a number: ").strip())
 
 # 
 def _ArrayMethod(arrLen):
+
+    """ This peice of code wont be 
+    executed, python will just read the 
+    code and move on to the next statement"""
+
     counter = 0
     arr = []
     while counter < arrLen:
