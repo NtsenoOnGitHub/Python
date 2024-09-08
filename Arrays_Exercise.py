@@ -56,6 +56,6 @@ for x in mark:
 
 average = sumVar/len(mark)
 print(average)
-# comment
+
 
 
